@@ -6,16 +6,11 @@
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix social: <https://users.dcc.uchile.cl/~ahogan/social.ttl#> .
 
-
 <> a foaf:Document ;
    dc:date "2023-11-10”^^xsd:date ;
    dc:title “Javiera’s FOAF Profile"@en ;
    foaf:primaryTopic <#jpc> ;
    dc:creator <#jpc> .
-
-
-
-
 
 <#jpc>
     a foaf:Person ;
