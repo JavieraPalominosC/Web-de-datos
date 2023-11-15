@@ -32,7 +32,7 @@
    social:hasFavouritePlatonicSolid dbr:dodecahedron;
    social:likesMovie <https://dbpedia.org/page/Call_Me_by_Your_Name_(film)>, dbr:the_hunger_games, <https://dbpedia.org/page/Your_Name>;
    foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl>,<http://users.dcc.uchile.cl/~almorale/foaf.ttl#am>, <https://users.dcc.uchile.cl/~goperez/perfil.ttl#gp>, <https://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh>;  
-   foaf:myersBriggs “ENTP".
+   foaf:myersBriggs "ENTP".
 
 
 
