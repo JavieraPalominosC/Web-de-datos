@@ -11,27 +11,28 @@
 @prefix dbr: <http://dbpedia.org/resource/>.
 
 <> a foaf:Document ;
-   dc:date "2023-11-10”^^xsd:date ;
-   dc:title “Javiera’s FOAF Profile"@en ;
+   dc:date "2023-11-08"^^xsd:date ;
+   dc:title "Javiera's FOAF Profile"@en ;
    foaf:primaryTopic <#jpc> ;
    dc:creator <#jpc> .
 
 <#jpc>
-    a foaf:Person ;
-    foaf:name “Javiera Palominos“ ;
-  foaf:givenName “Javiera” ;
-  foaf:familyName “Palominos” ;
-    foaf:age “26 años”^^xsd:integer ;
-    foaf:img<https://github.com/JavieraPalominosC/Web-de-datos/blob/main/suzume.jpeg> ;
-    foaf:homepage <URL-de-tu-página-web> ;
-    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
-    foaf:interest dbr:Semantic_Web , dbr:Otro_Interés ;
-    social:hasSpiritAnimal dbr:Gatito ;
-    social:hasFavouritePlatonicSolid dbr:dodecahedron;
- social:likesMovie <https://dbpedia.org/page/Call_Me_by_Your_Name_(film)>, dbr:the_hunger_games, <https://dbpedia.org/page/Your_Name>
- foaf:interest dbr:anime, dbr:books
- foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl>,<http://users.dcc.uchile.cl/~almorale/foaf.ttl#am>, <https://users.dcc.uchile.cl/~goperez/perfil.ttl#gp>, <https://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh>;  
- foaf:myersBriggs “ENTP".
+   a foaf:Person ;
+   rdfs:label "Javiera Palominos" ;
+   foaf:name "Javiera Palominos" ;
+   foaf:givenName "Javiera" ;
+   foaf:familyName "Palominos" ;
+   foaf:age 26 ;
+
+   foaf:img<https://github.com/JavieraPalominosC/Web-de-datos/blob/main/suzume.jpeg> ;
+   foaf:homepage <URL-de-tu-página-web> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
+   foaf:interest dbr:anime, dbr:books;
+   social:hasSpiritAnimal dbr:Gatito ;
+   social:hasFavouritePlatonicSolid dbr:dodecahedron;
+   social:likesMovie <https://dbpedia.org/page/Call_Me_by_Your_Name_(film)>, dbr:the_hunger_games, <https://dbpedia.org/page/Your_Name>;
+   foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl>,<http://users.dcc.uchile.cl/~almorale/foaf.ttl#am>, <https://users.dcc.uchile.cl/~goperez/perfil.ttl#gp>, <https://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh>;  
+   foaf:myersBriggs “ENTP".
 
 
 
